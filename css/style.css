@@ -1,0 +1,64 @@
+.logo,
+.search {
+    text-align: center;
+}
+.logo {
+    margin-top: 2rem;
+}
+.search {
+    width: 100%;
+    overflow: hidden;
+    margin: 3rem auto;
+}
+.search button {
+    font-size: 1rem;
+}
+.links {
+    margin-top: 2rem;
+    clear: both;
+}
+.links h3 {
+    padding: 0.5rem;
+    margin-bottom: 0.625rem;
+    display: inline-block;
+    width: 4rem;
+}
+.links ul {
+    width: 100%;
+    overflow: hidden;
+}
+.links li {
+    margin-top: 0.625rem;
+    text-align: center;
+}
+.links a {
+    line-height: 1rem;
+}
+.links a:hover {color: #5CB85C;}
+.hot {
+	color: green;
+}
+.footer {
+    padding: 3rem 0 2rem;
+    text-align: center;
+}
+.footer span {
+    color: #666;
+}
+.footer a {
+    color: #318a31;
+}
+.layui-bg-grass {
+    color: #fff!important;
+    background-color: #5CB85C!important
+}
+@media screen and (min-width:992px) {
+    .layui-container {
+        width: 680px
+    }
+}
+@media screen and (min-width:1200px) {
+    .layui-container {
+        width: 800px
+    }
+}
